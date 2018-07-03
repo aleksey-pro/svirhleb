@@ -1,0 +1,36 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.gallery-menu
+    .sidebar-header Меню
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="gallery-single.html") Предприятия ТМ "СВИРЬХЛЕБ"
+        li.widget-item
+          a(href="gallery-single.html") Работники ОАО "ПХК", ОАО "ЛодКХиК"
+        li.widget-item
+          a(href="gallery-single.html") Реклама ТМ "СвирьХлеб"
+
+block content
+  .gallery
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  / Галерея
+    h1 Фотогалерея
+    .row
+      .col-lg-6.gallery-item
+        a(href="#").gallery-item-title Предприятия ТМ "СВИРЬХЛЕБ"
+        .gallery-item-image
+          img(src="images/predpriatia/180_mgalb.jpg", alt="")
+        .gallery-item-desc Здесь Вы можете посмотреть: как выглядят наши предприятия. МЫ ВСЕГДА РАДЫ ГОСТЯМ!
+      .col-lg-6.gallery-item
+        a(href="#").gallery-item-title Работники ОАО "ПХК", ОАО "ЛодКХиК"
+        .gallery-item-image
+          img(src="images/stuff/232_mgalb.jpg", alt="")
+        .gallery-item-desc НАШИ РАБОТНИКИ-ЭТО САМОЕ ЦЕННОЕ, ЧТО У НАС ЕСТЬ!
+      .col-lg-6.gallery-item
+        a(href="#").gallery-item-title Реклама ТМ "СвирьХлеб"
+        .gallery-item-image
+          img(src="images/predpriatia/468.jpg", alt="")
+        .gallery-item-desc Здесь будут размещаться различные виды рекламы ТМ "СвирьХлеб"

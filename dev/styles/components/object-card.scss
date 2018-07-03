@@ -1,0 +1,63 @@
+.objects {
+	justify-content: space-around;
+	overflow: hidden;
+	position: relative;
+	background: #fff url(../images/worn_dots.png) center repeat;
+
+	@extend %box-shadow;
+}
+
+.object-card {
+	width: 300px;
+	margin-bottom: 1em;
+	background-color: $primary;
+	font-size: 0.8em;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	transition: all 0.5s ease-in-out;
+
+	.object-image {
+		padding-top: 20px;
+		position: relative;
+	}
+
+	.object-sale {
+		position: absolute;
+		left: 0.5em;
+		top: 0;
+		font-size: 14px;
+	}
+
+	.object-title,
+	.object-desc,
+	.object-type {
+		padding: 1em;
+	}
+
+	.object-divider {
+		width: 70%;
+		margin-left: auto;
+		border: 1px solid $white;
+	}
+
+	.object-type {
+		border-top: 2px solid $white;
+		text-align: center;
+	}
+
+	@include media-breakpoint-up(md) {
+		font-size: 1.2em;
+	}
+}
+
+.object-card:hover {
+	-webkit-box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.75);
+	color: $white;
+	transform: scale(0.97);
+}

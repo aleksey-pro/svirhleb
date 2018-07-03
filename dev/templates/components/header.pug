@@ -1,0 +1,52 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    title ОАО "Подпорожский хлебокомбинат"
+    meta(name="description" content="")
+    link(rel="shortcut icon" type="image/x-icon" href="./favicon.ico")
+    script(src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript")
+    link(rel="stylesheet" type="text/css" href="css/main.css")
+    <!-- [if lte IE 10]<p class="browsehappy"> Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите его </a></p><![endif]-->
+  body
+    header.header
+      .container.relative
+        .row.header-poster
+          img(src="images/banner.png", alt="свирьхлеб")
+          <a class="header-logo" href="#"><img src="images/logo-main.png" alt=""></a>
+          .header-name.header-name--left
+            | ОАО "Лодейнопольский
+            br
+            | хлебокомбинат Хлебобулочных
+            br
+            |  и кондитерских изделий"
+            br
+            | ОАО "Подпорожский хлебокомбинат"
+        <nav class="row navbar navbar-expand-md navbar-custom">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              svg.icon-title
+                use(xlink:href='images/SVG.svg#menu')
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="page_item active">
+                <a href="index.html">ГЛАВНАЯ <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page_item"><a href="about.html">О НАС</a></li>
+              <li class="page_item"><a href="catalog.html">КАТАЛОГ</a></li>
+              <li class="page_item"><a href="news.html">НОВОСТИ</a></li>
+              <li class="page_item"><a href="gallery.html">ФОТОГАЛЕРЕЯ</a></li>
+              <li class="page_item"><a href="contacts.html">КОНТАКТЫ</a></li>
+            </ul>
+          </div>
+        </nav>
+        img(class='kolos-image' src="images/kolos.png", alt="свирьхлеб")
+        img(class='povar-image' src="images/povar.png", alt="свирьхлеб")
+
+
+
+
+

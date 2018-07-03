@@ -1,0 +1,55 @@
+extends ../base
+
+block content
+  .catalog-content
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  /
+      a(href="catalog.html") Каталог
+      |  /
+      a(href="production.html") Наша продукция
+      |  / ПЕЧЕНЬЕ
+    h1 ПЕЧЕНЬЕ ТМ "СВИРЬХЛЕБ"
+    p Печенье –- отличный спутник чашки с горячим чаем!
+    p Попробуйте наше печенье, изготовленное с любовью, ведь оно ничем не уступает нашему любимому печенью, которые МЫ С ВАМИ печем дома:
+    .row
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печенье 'Земелах'")
+          span Печенье "Земелах"
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печенье 'Маркиза'")
+          span Печенье "Маркиза"
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печенье 'Кокосовое'")
+          span  Печенье "Кокосовое
+    .row
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печ. 'Сказка' (творожное)")
+          span Печ. "Сказка" (творожное)
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печ. 'Рио' (с пш. отрубями и семен. подс.)")
+          span Печ. "Рио" (с пш. отрубями и семен. подс.)
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печ.'Американер Изысканный'")
+          span Печ."Американер Изысканный"
+    .row
+      .col-lg-4
+        a(href="#")
+          img(src="#", alt="Печенье 'Гатчинское'")
+          span Печенье "Гатчинское"
+    h2.content-center Торговая марка «СвирьХлеб» предлагает Вам следующие виды ПЕЧЕНЬЯ С БОЛЬШОЙ ЛЮБОВЬЮ:
+    h5.content-center ОAО "Подпорожский Хлебокомбинат" г. Подпорожье, Ленинградская область
+    .row
+      .col-lg-10.offset-lg-1.content-center
+        include ../components/konditerTable-podpor
+    h5.content-center ОAО "Лодейнопольский комбинат хлебобулочных и кондитерских изделий" г. Лодейное Поле, Ленинградская область
+    .row
+      .col-lg-12.content-center
+        include ../components/konditerTable-lodey
+    a(href='production.html').backlink &lt;&lt; Назад

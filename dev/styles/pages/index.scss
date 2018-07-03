@@ -1,0 +1,116 @@
+.front-content {
+	text-align: justify;
+}
+
+
+
+// .action-wrapper {
+// 	height: 280px;
+// 	background-color: $bg-secondary;
+// 	margin-top: 2em;
+
+// 	@include media-breakpoint-up(lg) {
+// 		height: 380px;
+// 	}
+// }
+
+// .action {
+// 	color: $gray-800;
+// 	border-top: 6px solid $c-primary;
+// 	overflow: hidden;
+
+// 	&-bg {
+// 		position: absolute;
+// 		height: 300px;
+// 		filter: opacity(0.2);
+// 		overflow: hidden;
+
+// 		img {
+// 			height: 100%;
+// 			@include media-breakpoint-up(md) {
+// 				width: 100%;
+// 			}
+// 		}
+// 	}
+// 	&-image img {
+// 		position: absolute;
+// 		left: 10%;
+// 		top: 50%;
+// 		width: 30%;
+// 		z-index: 2;
+// 		display: none;
+
+// 		@include media-breakpoint-up(md) {
+// 			display: block;
+// 			width: 50%;
+// 			left: 2%;
+// 			top: 60%;
+// 		}
+// 		@include media-breakpoint-up(lg) {
+// 			top: 50%;
+// 		}
+// 	}
+// 	&-title {
+// 		position: absolute;
+// 		left: -1em;
+// 		top: 3em;
+// 		color: $action-font;
+// 		font-size: 3em;
+// 		font-weight: 600;
+// 		transform: rotate(-90deg);
+// 		z-index: -1;
+
+// 		@include media-breakpoint-up(xl) {
+// 			left: 85%;
+// 			z-index: 3;
+// 		}
+// 	}
+// 	&-desc {
+// 		font-size: 1em;
+// 		margin: 5%;
+// 		@include media-breakpoint-up(sm) {
+// 			width: 50%;
+// 			font-size: 1.5em;
+// 		}
+// 		@include media-breakpoint-up(md) {
+// 			width: 45%;
+// 			z-index: 2;
+// 		}
+// 	}
+// 	&-features {
+// 		display: flex;
+// 		flex-direction: column;
+// 		justify-content: flex-end;
+// 		font-weight: 600;
+// 		margin-left: auto;
+// 		margin-right: 1em;
+
+// 		&-icon {
+// 			margin-right: 1em;
+// 		}
+// 		@include media-breakpoint-up(sm) {
+// 			width: 40%;
+// 			justify-content: center;
+// 			margin: 0;
+// 		}
+
+// 		@include media-breakpoint-up(md) {
+// 			width: 35%;
+// 		}
+// 	}
+// }
+
+// .more {
+// 	font-size: 1.5em;
+
+// 	&-btn {
+// 		margin: 1em auto;
+// 		text-transform: uppercase;
+
+// 		@extend %btn-shadow;
+
+// 		@include media-breakpoint-up(md) {
+// 			margin: 2em auto;
+// 		}
+// 	}
+// }

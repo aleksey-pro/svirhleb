@@ -1,0 +1,49 @@
+.footer {
+	height: 50px;
+	padding-top: 0.8em;
+	background: #5B842A url('../../images/footer-menu_bg.png') 0 0 repeat-x;
+}
+
+.footer-nav__menu {
+	display: flex;
+	font-size: 13px;
+
+	&-item {
+		list-style: none;
+		padding: 0 10px;
+	}
+	&-item:first-child {
+		padding-left: 0;
+	}
+	&-link {
+		text-decoration: underline;
+		color: $c-white;
+	}
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: flex-end;
+
+	.footer-icon {
+		display: inline-block;
+		margin: 0 2em;
+		background-color: transparent;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 10px;
+		width: 10px;
+	}
+}
+
+.footer-icon--home {
+	background-image: url('../../images/home-a.png');
+}
+
+.footer-icon--map {
+	background-image: url('../../images/map-a.png');
+}
+
+.footer-icon--mail {
+	background-image: url('../../images/mail-a.png');
+}

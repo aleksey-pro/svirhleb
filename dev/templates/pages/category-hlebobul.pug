@@ -1,0 +1,34 @@
+extends ../base
+
+block content
+  .catalog-content
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  /
+      a(href="catalog.html") Каталог
+      |  / Наша продукция
+    h1 БУЛОЧНЫЕ ИЗДЕЛИЯ ТМ "СВИРЬХЛЕБ"
+    p  Торговая марка «СвирьХлеб» предлагают потребителям богатый ассортимент булочных изделий. Наши булочные изделия вкусные, ароматные и экологически чистые.Для производства булочных изделий мы используем классическую технологию и только натуральные продукты, не применяя никаких химических разрыхлителей, улучшителей и добавок.
+    p Мы заботимся О ВAШЕМ ЗДОРОВЬЕ:
+    p Вся булочная продукция Торговой Марки "СвирьХлеб" имеет красивую, красочную упаковку, что несомненно радует глаз и повышает настроение!
+    h3.content-center.prod-category-title ВКУСНЫЙ ХЛЕБ В КAЖДЫЙ ДОМ!
+    .row.content-center
+      .col-lg-4
+        img(src="#", alt="alt" height="50px" width="50px")
+        p Батон "Нарезной"
+      .col-lg-4
+        img(src="#", alt="alt" height="50px" width="50px")
+        p Хлеб "Сандвич" 0,22; 0,45 кг
+      .col-lg-4
+        img(src="#", alt="alt" height="50px" width="50px")
+        p Батон "Подмосковный"
+    h2.content-center Торговая марка «СвирьХлеб» предлагает Вам следующие виды булочных изделий:
+    h5.content-center ОAО "Подпорожский Хлебокомбинат" г. Подпорожье, Ленинградская область
+    .row
+      .col-lg-10.offset-lg-1.content-center
+        include ../components/hlebobulTable-podpor
+    h5.content-center ОAО "Лодейнопольский комбинат хлебобулочных и кондитерских изделий" г. Лодейное Поле, Ленинградская область
+    .row
+      .col-lg-12.content-center
+        include ../components/hlebobulTable-lodey
+    a(href='production.html').backlink &lt;&lt; Назад

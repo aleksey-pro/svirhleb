@@ -1,0 +1,56 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.about-menu
+    .sidebar-header Меню
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="contacts.html").active Обратная связь
+        li.widget-item
+          a(href="contacts-lodey.html") ОАО "ЛодКХиК
+        li.widget-item
+          a(href="contacts-podpor.html") "ОАО "Подпорожский Хлебокомбинат"
+
+block content
+  .contacts
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  / Обратная связь
+    h1 Обратная связь
+  .row
+    .col-lg-12
+      .contacts-list Вы всегда можете обратиться к НАМ:
+        ul
+          li.contacts-list-item с предложениями и пожеланиями;
+          li.contacts-list-item с благодарностями (понравилась наша продукция? Напишите нам об этом, мы будем очень рады!)
+          li.contacts-list-item с жалобой (не понравилась продукция, есть жалобы, напишите НАМ, мы проведем полную 100% проверку, а ВАМ скажем БОЛЬШОЕ СПАСИБО ЗА ПОМОЩЬ!)
+      .contacts-list А также со всеми другими вопросами
+      .contacts-loveMessage мы любим вас!
+  .row
+    .col-lg-6
+      p Для того чтобы связаться с нашими сотрудниками, заполните, пожалуйста, форму обратной связи.
+      p * - поля обязательные для заполнения.
+      form
+        .form-group
+          label(for="textinput") Имя*:
+          input(type="text" class="form-control" id="nameinput" aria-describedby="emailHelp" placeholder="Имя")
+        .form-group
+          label(for="orginput") Организация:
+          input(type="text" class="form-control" id="orginput" placeholder="Организация")
+        .form-group
+          label(for="cityinput") Город:
+          input(type="text" class="form-control" id="cityinput" placeholder="Город")
+        .form-group
+          label(for="emailinput") E-mail*:
+          input(type="email" class="form-control" id="emailinput" placeholder="name@email.com")
+        .form-group
+          label(for="infoinput") Контактная информация:
+          input(type="text" class="form-control" id="infoinput")
+        .form-group
+          label(for="textinput") Сообщение*:
+          textarea(name="", cols="30", rows="5" id="textinput" class="form-control")
+        button(type="submit" class="btn") Отправить
+
+
+

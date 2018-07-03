@@ -1,0 +1,26 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.gallery-menu
+    .sidebar-header Меню
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="gallery-single.html").active Предприятия ТМ "СВИРЬХЛЕБ"
+        li.widget-item
+          a(href="gallery-single.html") Работники ОАО "ПХК", ОАО "ЛодКХиК"
+        li.widget-item
+          a(href="gallery-single.html") Реклама ТМ "СвирьХлеб"
+
+block content
+  .gallery
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  / Галерея
+  .row
+    .col-lg-4
+      img(src="#", alt="предприятия")
+    .col-lg-4
+      img(src="#", alt="предприятия")
+    .col-lg-4
+      img(src="#", alt="предприятия")

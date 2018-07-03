@@ -1,0 +1,62 @@
+// Color scheme
+
+$c-primary: #007bff;
+$c-white: #ffffff;
+$c-secondary: #fafafa;
+$c-warning: #ffc107;
+$c-grey: #868686;
+$c-beige: #fffcfc;
+$solid-grey: #495057;
+$action-font: #f7101099;
+
+$c-brown: #6B0000;
+$c-black: #000000;
+$c-red: #ff0000;
+$c-green: #1F8700;
+
+$text-main-color: $c-brown;
+$text-solid-grey: $solid-grey;
+$bg-secondary: $c-secondary;
+
+// helpers
+
+%box-shadow {
+	box-shadow: 0px 0px 30px 10px rgba(50, 50, 50, 0.2);
+}
+
+%btn-shadow {
+	box-shadow: 2px 10px 30px 0px rgba(50, 50, 50, 0.2);
+}
+
+.content-center {
+	text-align: center;
+}
+
+.text-brown {
+	color: $c-brown;
+	font-weight: bold;
+}
+
+.relative {
+	position: relative;
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		/* Firefox 18- */
+		@content;
+	}
+
+	&::-moz-placeholder {
+		/* Firefox 19+ */
+		@content;
+	}
+
+	&:-ms-input-placeholder {
+		@content;
+	}
+}

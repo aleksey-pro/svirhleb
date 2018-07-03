@@ -1,0 +1,37 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.about-menu
+    .sidebar-header Меню
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="about-mission.html") Миссия ТМ "СвирьХлеб"
+        li.widget-item
+          a(href="about-success.html") Наши успехи
+        li.widget-item
+          a(href="about-docs.html") Документы
+        li.widget-item
+          a(href="about-job.html") Вакансии
+        li.widget-item
+          a(href="about-press.html").active Пресса о ТМ "СВИРЬХЛЕБ"
+
+block content
+  .press
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  /
+      a(href="contacts.html") О нас
+      |  / Пресса о ТМ "СВИРЬХЛЕБ"
+    h1 Пресса о ТМ "СВИРЬХЛЕБ"
+    p.par-important.content-center Дорогие друзья!
+    p.par-important.content-center В данном разделе Вы сможете прочитать Статьи, изданные в различных газетах и журналах в формате онлайн или в печатных изланиях, о ТОРГОВОЙ МАРКЕ "СВИРЬХЛЕБ". Прочитайте! Это ОЧЕНЬ ИНТЕРЕСНО!
+    .row.press-image
+      .col-lg-5
+        img(src="images/476.jpg", alt="статья свирьхлеб")
+    p.par-important.content-center Статья в газете "Городские страницы" об ОАО "Лодейнопольский Хлебокомбинат", изданная в Петрозаводске, февраль 2013
+    p <b>Файлы</b>
+    ul.press-list
+      li.press-list-item
+        a(href="#") "КОМСОМОЛЬСКАЯ ПРАВДА" Статья о торговой марке "СвирьХлеб" январь 2013 (2467 Kb)
+

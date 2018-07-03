@@ -1,0 +1,16 @@
+include components/header
+
+section.main
+  .container
+    .row
+
+      .col-lg-2.sidebar-left
+        include components/sidebar-left
+
+      .col-lg-8.content
+        block content
+
+      .col-lg-2.sidebar-right
+        include components/sidebar-right
+
+include components/footer

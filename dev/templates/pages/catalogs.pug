@@ -1,0 +1,26 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.cat-menu
+    .sidebar-header Электронные каталоги ТМ "СвирьХлеб
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="catalogs.html") Электронный каталог ТМ "СвирьХлеб" 2012
+      ul.widget-list
+              li.widget-item
+                a(href="production.html") НАША ПРОДУКЦИЯ
+
+block content
+  .catalogs
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  /
+      a(href="catalog.html") Каталог
+      |  / Каталоги
+    h1 Электронные каталоги ТМ "СвирьХлеб
+    p Здесь вы можете скачать электронный каталог ТМ "СвирьХлеб" 2012
+    img(src="#", alt="каталог")
+    p <b>Файлы</b>
+    img(src="images/pdf.gif", alt="").cat-icon
+    a(href="#") Электронный каталог ТОРГОВОЙ МАРКИ "СВИРЬХЛЕБ" 2012

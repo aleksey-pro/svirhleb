@@ -1,0 +1,29 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.about-menu
+    .sidebar-header Новости
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="news-single.html") 2013
+
+block content
+  .news
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  /
+      a(href="news.html") Новости
+      |  / 2013
+    h1 2013
+    .row.news-item
+      .col-lg-12
+        .news-item-title
+          span.news-item-date 28/01/2013 &nbsp;
+          a(href="news-single.html") ОТКРЫТИЕ САЙТА ТОРГОВОЙ МАРКИ "СВИРЬХЛЕБ"
+      .col-lg-3
+       img(src="../../images/logo-main.png", alt="").news-item-image
+      .col-lg-9.news-item-content
+        p Вот и настал день, которого наши предприятия ждали практически год. Открылся сайт объединяющий в себе предприятия ОАО "Подпорожский Хлебокомбинат" и ОАО "Лодейнопольский Хлебокомбинат", выпускающих свою продукцию под ТОРГОВОЙ МАРКОЙ "СВИРЬХЛЕБ"! УРА!
+        a(href="news-single.html").news-item-imore Подробнее &gt;
+

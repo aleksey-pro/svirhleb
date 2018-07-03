@@ -1,0 +1,35 @@
+extends ../base
+
+block widget-content
+  .row.sidebar-wgt.about-menu
+    .sidebar-header Меню
+    .sidebar-content
+      ul.widget-list
+        li.widget-item
+          a(href="contacts.html") Обратная связь
+        li.widget-item
+          a(href="contacts-lodey.html") ОАО "ЛодКХиК"
+        li.widget-item
+          a(href="contacts-podpor.html").active ОАО "Подпорожский Хлебокомбинат"
+
+block content
+  .contacts
+    .breadcrumb-custom
+      a(href="index.html") Главная страница
+      |  /
+      a(href="contacts.html") Контакты
+      |  / ОАО "Подпорожский Хлебокомбинат"
+    h1 ОАО "Подпорожский Хлебокомбинат"
+    .contacts-title.content-center ОАО "Подпорожский Хлебокомбинат"
+    p.contacts-line
+      span Генеральный директор:
+      | &nbsp; 8 (81365) 2-15-95
+    p.contacts-line
+      span Бухгалтерия:
+      | &nbsp; 8 (81365) 2-15-96
+    p.contacts-line
+      span Отдел продаж:
+      | &nbsp; 8 (81365) 2-14-07; 2 15-96
+    p.contacts-line
+      span Стол заказов:
+      | &nbsp; 8 (81365) 2-14-28; 30-700; Моб.: +7911 255-09-51
